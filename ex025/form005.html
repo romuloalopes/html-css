@@ -9,7 +9,25 @@
 
 <body>
     <h1>Exemplo de Formulario</h1>
-    <form action=""></form>
+    <form action="cadastro2.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="Sexo" id="smas" value="M" checked> <label for="smas">Masculino</label> <br>
+            <input type="radio" name="Sexo" id="sfem" value="F"> <label for="sfem">Feminino</label> <br>
+        </fieldset>
+        <fieldset>
+            <legend>esportes favoritos</legend>
+            <input type="checkbox" name="basq" id="ibasq" > <label for="ibasq">Basquete</label> <br> 
+            <input type="checkbox" name="foot" id="ifoot" checked> <label for="ifoot">Footbol</label> <br>
+            <input type="checkbox" name="volei" id="ivolei"> <label for="ivolei">Volei</label> <br>
+            <input type="checkbox" name="nata" id="inata"> <label for="inata">Nataaçao</label> <br>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
     
 </body>
 </html>
